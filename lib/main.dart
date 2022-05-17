@@ -80,7 +80,7 @@ class _MainState extends State<Main> {
               Positioned(
                 bottom: h / 7.5,
                 child: Text(
-                  "Made By AmirHosein Bayat",
+                  "Made By AnZeel",
                   style: TextStyle(
                       color: isDarkMode ? Colors.black : Colors.white,
                       fontSize: 18,
