@@ -44,8 +44,8 @@ class _MainState extends State<Main> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: isDarkMode
-            ? Color.fromARGB(255, 245, 245, 245)
-            : Color.fromARGB(255, 24, 24, 24),
+            ? const Color.fromARGB(255, 245, 245, 245)
+            : const Color.fromARGB(255, 24, 24, 24),
         appBar: AppBar(
           elevation: 0,
           centerTitle: true,

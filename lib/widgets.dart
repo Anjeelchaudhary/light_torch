@@ -8,10 +8,11 @@ bottomSocial(
 
   return GestureDetector(
     onTap: () async {
-      final String _urlL = url;
+      final String urlL = url;
 
+      // ignore: deprecated_member_use
       await launch(
-        _urlL,
+        urlL,
         enableJavaScript: false,
         forceWebView: false,
         forceSafariVC: false,
@@ -24,20 +25,20 @@ bottomSocial(
         boxShadow: [
           BoxShadow(
               blurRadius: 10.0,
-              offset: Offset(5, 5),
+              offset: const Offset(5, 5),
               color: isDarkMode
-                  ? Color.fromARGB(255, 242, 242, 242)
-                  : Color.fromARGB(255, 0, 0, 0)),
+                  ? const Color.fromARGB(255, 242, 242, 242)
+                  : const Color.fromARGB(255, 0, 0, 0)),
           BoxShadow(
               blurRadius: 10.0,
-              offset: Offset(-5, -5),
+              offset: const Offset(-5, -5),
               color: isDarkMode
-                  ? Color.fromARGB(255, 209, 209, 209)
-                  : Color.fromARGB(255, 37, 37, 37))
+                  ? const Color.fromARGB(255, 209, 209, 209)
+                  : const Color.fromARGB(255, 37, 37, 37))
         ],
         color: isDarkMode
-            ? Color.fromARGB(255, 245, 245, 245)
-            : Color.fromARGB(255, 24, 24, 24),
+            ? const Color.fromARGB(255, 245, 245, 245)
+            : const Color.fromARGB(255, 24, 24, 24),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Center(

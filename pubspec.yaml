@@ -1,5 +1,5 @@
 name: flash_light_flutter
-description: Flashy
+description: Flash Light
 
 publish_to: "none"
 
@@ -15,7 +15,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   torch_light: ^0.4.0
   day_night_switcher: ^0.2.0+1
-  url_launcher: ^6.0.20
+  url_launcher: ^6.1.2
   flutter_native_splash: ^2.1.6
   
 
@@ -23,6 +23,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^2.0.1
 
 flutter_icons:
   android: true
